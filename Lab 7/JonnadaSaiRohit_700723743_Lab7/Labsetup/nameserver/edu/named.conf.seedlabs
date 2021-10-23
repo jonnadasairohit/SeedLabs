@@ -1,0 +1,5 @@
+zone "edu" {
+        type master;
+        file "/etc/bind/edu.db";
+};
+

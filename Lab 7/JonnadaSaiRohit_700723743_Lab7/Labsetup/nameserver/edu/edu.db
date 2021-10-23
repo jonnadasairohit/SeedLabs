@@ -1,0 +1,39 @@
+$TTL 3600
+@       IN      SOA   a.tld-edu-servers.edu. admin.tld-edu-servers.edu. (
+                2008111001
+                8H
+                2H
+                4W
+                1D)
+
+; Records for this nameserver (you need to make changes)
+@                       IN      NS   a.tld-edu-servers.edu.
+a.tld-edu-servers.edu.  IN      A    10.9.0.60
+
+
+; Real records for syr.edu
+syr.edu.                IN      NS   ns1.syr.edu.
+ns1.syr.edu.            IN      A    128.230.12.8
+
+; Add records in the following
+ucmo.edu.               IN      NS   ns2.ucmo.edu.
+ns2.ucmo.edu.           IN      A    153.91.1.52
+
+escc.edu.               IN      NS   nsccdcdmz19.nscc.edu.
+nsccdcdmz19.nscc.edu.	IN      A    198.146.64.120
+
+ua.edu.               	IN      NS   ext-dns3.ua.edu.
+ext-dns3.ua.edu.	IN      A    130.160.0.150
+
+example.edu.            IN      NS   ns.example.edu.
+ns.example.edu.         IN      A    10.9.0.65
+
+rohit.edu.              IN      NS   ns.rohit.edu.
+ns.rohit.edu.           IN      A    10.9.0.65
+
+cybr.edu.               IN      NS   ns.cybr.edu.
+ns.cybr.edu.            IN      A    10.9.0.65
+
+
+
+

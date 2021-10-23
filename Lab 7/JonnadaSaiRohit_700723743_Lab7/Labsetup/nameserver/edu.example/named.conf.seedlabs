@@ -1,0 +1,14 @@
+zone "example.edu" {
+type master;
+file "/etc/bind/example.edu.db";
+};
+
+zone "rohit.edu" {
+type master;
+file "/etc/bind/rohit.edu.db";
+};
+
+zone "cybr.edu" {
+type master;
+file "/etc/bind/cybr.edu.db";
+};
